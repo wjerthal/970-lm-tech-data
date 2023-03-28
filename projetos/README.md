@@ -5,4 +5,3 @@
 - calculadora
 - Projeto final técnicas de programação II
 - Projeto final de banco de dados
-- teste
