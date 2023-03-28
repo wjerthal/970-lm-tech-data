@@ -8,3 +8,7 @@
 - sdsdsd
 - AAAAA
 - projeto final de logica de programaçao
+
+# Descrições
+
+Projetos muito legais desenvolvidos durante o curso
