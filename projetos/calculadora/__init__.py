@@ -1,7 +1,7 @@
-from funcoes import soma
-from funcoes import subtracao
-from funcoes import multiplicacao
-from funcoes import divisao
+from projetos.funcoes import soma
+from projetos.funcoes import subtracao
+from projetos.funcoes import multiplicacao
+from projetos.funcoes import divisao
 
 def calcule(a, b, operacao):
     return operacao(a,b)
