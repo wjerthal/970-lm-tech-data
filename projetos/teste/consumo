@@ -1,0 +1,21 @@
+# simula a obtenção do volume atual do tanque
+def obtem_litros_tanque():
+    return int(input("volume dp tanque: "))
+
+# simula a obtenção do consumo atual do carro
+def obtem_consumo_atual():
+    return int(input("consumo atual do carro (km/l): "))
+
+# verifica necessidade de reabastecer
+def alerta_abastecer():
+    distancia = int(input("qual a distancia? "))
+    litros_tanque = obtem_litros_tanque()
+    consumo = obtem_consumo_atual()
+    # se os litros no tanque não são suficiente
+    # emitir mensagem
+    if distancia/consumo > litros_tanque:
+        print ("Necessidade de abastecer!")
+    else:
+        print ("Tranquilo")
+
+alerta_abastecer()
